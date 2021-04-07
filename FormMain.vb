@@ -23,6 +23,7 @@ Public Class FormMain
                 SerialPort.Open()
 
                 'Изменение интерфейса после подключения
+                ComboBoxCOMPorts.Enabled = False
                 ButtonConnect.Text = "Отключиться"
                 TextBox1.Enabled = True
                 TextBox2.Enabled = True
@@ -40,6 +41,7 @@ Public Class FormMain
             SerialPort.Close()
 
             'Изменение интерфейса после отключения
+            ComboBoxCOMPorts.Enabled = True
             ButtonConnect.Text = "Подключиться"
             TextBox1.Enabled = False
             TextBox2.Enabled = False

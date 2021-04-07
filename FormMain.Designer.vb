@@ -59,6 +59,7 @@ Partial Class FormMain
         Me.TextBox1.Enabled = False
         Me.TextBox1.Location = New System.Drawing.Point(22, 53)
         Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.ReadOnly = True
         Me.TextBox1.Size = New System.Drawing.Size(100, 20)
         Me.TextBox1.TabIndex = 2
         '
@@ -67,6 +68,7 @@ Partial Class FormMain
         Me.TextBox2.Enabled = False
         Me.TextBox2.Location = New System.Drawing.Point(22, 79)
         Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.ReadOnly = True
         Me.TextBox2.Size = New System.Drawing.Size(100, 20)
         Me.TextBox2.TabIndex = 3
         '
@@ -75,6 +77,7 @@ Partial Class FormMain
         Me.TextBox3.Enabled = False
         Me.TextBox3.Location = New System.Drawing.Point(22, 105)
         Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.ReadOnly = True
         Me.TextBox3.Size = New System.Drawing.Size(100, 20)
         Me.TextBox3.TabIndex = 4
         '
@@ -83,6 +86,7 @@ Partial Class FormMain
         Me.TextBox4.Enabled = False
         Me.TextBox4.Location = New System.Drawing.Point(22, 132)
         Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.ReadOnly = True
         Me.TextBox4.Size = New System.Drawing.Size(100, 20)
         Me.TextBox4.TabIndex = 5
         '
@@ -91,6 +95,7 @@ Partial Class FormMain
         Me.TextBox5.Enabled = False
         Me.TextBox5.Location = New System.Drawing.Point(128, 53)
         Me.TextBox5.Name = "TextBox5"
+        Me.TextBox5.ReadOnly = True
         Me.TextBox5.Size = New System.Drawing.Size(99, 20)
         Me.TextBox5.TabIndex = 9
         '
@@ -99,6 +104,7 @@ Partial Class FormMain
         Me.TextBox6.Enabled = False
         Me.TextBox6.Location = New System.Drawing.Point(128, 79)
         Me.TextBox6.Name = "TextBox6"
+        Me.TextBox6.ReadOnly = True
         Me.TextBox6.Size = New System.Drawing.Size(99, 20)
         Me.TextBox6.TabIndex = 8
         '
@@ -107,6 +113,7 @@ Partial Class FormMain
         Me.TextBox7.Enabled = False
         Me.TextBox7.Location = New System.Drawing.Point(128, 105)
         Me.TextBox7.Name = "TextBox7"
+        Me.TextBox7.ReadOnly = True
         Me.TextBox7.Size = New System.Drawing.Size(99, 20)
         Me.TextBox7.TabIndex = 7
         '
@@ -115,8 +122,12 @@ Partial Class FormMain
         Me.TextBox8.Enabled = False
         Me.TextBox8.Location = New System.Drawing.Point(128, 131)
         Me.TextBox8.Name = "TextBox8"
+        Me.TextBox8.ReadOnly = True
         Me.TextBox8.Size = New System.Drawing.Size(99, 20)
         Me.TextBox8.TabIndex = 6
+        '
+        'SerialPort
+        '
         '
         'FormMain
         '
