@@ -8,9 +8,9 @@ Public Class FormMain
                 ComboBoxCOMPorts.Items.Add(sp)
             Next
             'Выбрать первый по-умолчанию
-            ComboBoxCOMPorts.SelectedIndex = 0
+            If ComboBoxCOMPorts.Items.Count > 0 Then ComboBoxCOMPorts.SelectedIndex = 0
         Catch ex As Exception
-            MessageBox.Show(ex.Message)
+            MessageBox.Show(ex.Message, "Ошибка")
         End Try
     End Sub
 
@@ -34,7 +34,8 @@ Public Class FormMain
                 TextBox7.Enabled = True
                 TextBox8.Enabled = True
             Catch ex As Exception
-                MessageBox.Show(ex.Message)
+                MsgBox(ex.Message, MsgBoxStyle.Critical, "Ошибка подключения")
+                'MessageBox.Show(ex.Message, "Ошибка")
             End Try
         Else
             'Отключение
